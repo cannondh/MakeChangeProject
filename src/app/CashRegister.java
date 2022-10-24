@@ -61,35 +61,35 @@ public class CashRegister {
 			cash -= (ones * 1);
 
 			if (hundreds >= 2) {
-				System.out.println("You have " + hundreds + " hundreds.");
+				System.out.println("You have " + hundreds + " hundreds in change.");
 			} else if (hundreds > 1 && hundreds < 2) {
-				System.out.println("You have " + hundreds + " hundred.");
+				System.out.println("You have " + hundreds + " hundred in change.");
 			}
 			if (fifties >= 2) {
-				System.out.println("You have " + fifties + " fifties");
+				System.out.println("You have " + fifties + " fifties in change.");
 			} else if (fifties > 1 && fifties < 2) {
-				System.out.println("You have " + fifties + " fifty.");
+				System.out.println("You have " + fifties + " fifty in change.");
 			}
 			if (twenties >= 2) {
-				System.out.println("You have " + twenties + " twenties.");
+				System.out.println("You have " + twenties + " twenties in change.");
 			} else if (twenties > .99 && twenties < 2) {
-				System.out.println("You have " + twenties + " twenty.");
+				System.out.println("You have " + twenties + " twenty in change.");
 			}
 
 			if (tens >= 2) {
-				System.out.println("You have " + tens + " tens.");
+				System.out.println("You have " + tens + " ten in change.");
 			} else if (tens > .99 && tens < 2) {
-				System.out.println("You have " + tens + " ten.");
+				System.out.println("You have " + tens + " ten in change.");
 			}
 			if (fives >= 2) {
-				System.out.println("You have " + fives + " fives.");
+				System.out.println("You have " + fives + " fives in change.");
 			} else if (fives > .99 && fives < 2) {
-				System.out.println("You have " + fives + " five.");
+				System.out.println("You have " + fives + " five in change.");
 			}
 			if (ones >= 2) {
-				System.out.println("You have " + ones + " ones.");
+				System.out.println("You have " + ones + " ones in change.");
 			} else if (ones > .99 && ones < 2) {
-				System.out.println("You have " + ones + " one.");
+				System.out.println("You have " + ones + " one in change.");
 			}
 
 			;
@@ -132,28 +132,28 @@ public class CashRegister {
 
 		// cash = cash - pennies * 1 ;
 		if (quarters > 2) {
-			System.out.println("You have " + (int) quarters + " quarters.");
+			System.out.println("You have " + (int) quarters + " quarters in change.");
 		} else if (quarters > .99 && quarters < 2) {
-			System.out.println("You have " + (int) quarters + " quarter.");
+			System.out.println("You have " + (int) quarters + " quarter in change.");
 		}
 
 		if (dime > 2) {
-			System.out.println("You have " + (int) dime + " dimes.");
+			System.out.println("You have " + (int) dime + " dimes in change.");
 		}
 		if (dime >= 1.01 && dime < 2) {
-			System.out.println("You have " + (int) dime + " dime.");
+			System.out.println("You have " + (int) dime + " dime in change.");
 		}
 
 		if (nickels > 2) {
-			System.out.println("You have " + (int) nickels + " nickels.");
+			System.out.println("You have " + (int) nickels + " nickels in change.");
 		} else if (nickels > .99 && nickels < 2) {
-			System.out.println("You have " + (int) nickels + " nickel.");
+			System.out.println("You have " + (int) nickels + " nickel in change.");
 		}
 
 		if (pennies > 2) {
-			System.out.println("You have " + (int) pennies + " pennies.");
+			System.out.println("You have " + (int) pennies + " pennies in change.");
 		} else if (pennies > .99 && pennies < 2) {
-			System.out.println("You have " + (int) pennies + " penny.");
+			System.out.println("You have " + (int) pennies + " penny in change.");
 		}
 
 		return cash;
